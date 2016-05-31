@@ -76,9 +76,23 @@ margin-bottom: 0em;
 aside p{
     font-size: 16px;
 }
+<<<<<<< HEAD
 
 .logos{
     text-align: center;
+=======
+.logo_crecer{
+    width: 100%;
+    height: auto;
+}
+.logo_crecer img{
+    width: 18em;
+    height: auto;
+}
+.logo_2{
+     width: 18em;
+    height: auto;
+>>>>>>> origin/master
 }
 
 .galery{
