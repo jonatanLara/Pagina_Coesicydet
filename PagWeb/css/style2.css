@@ -1,0 +1,101 @@
+header{
+	background-color: whitesmoke;
+	width: 100%;
+	height: 38px;
+}
+li span{
+    color: #204778;
+}
+/*
+.navbar-inverse,.navbar-toggle,.active{
+    background-color: #CC1414;
+}
+.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*/
+#header{
+	color: #999898;
+}
+.red-social{
+	background-color: #92CB68;
+	width: 100%;
+	height: 55px;
+    font-size: 1.2em;
+}
+#footer{
+	background-color: #4E4F4D;
+}
+
+#toTop{
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 14px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 20000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #a82800;
+    background-color: tomato;
+
+}
+
+#toTop:hover{
+	background-color: #a82800;
+
+}
+#toTop a{
+	 text-decoration: none;
+	 color: white;
+}
+#info-cont{
+	
+	color: white;
+	border-radius: 10px;
+    width: 500px;
+
+}
+.programas{
+    background-color: #D4D4D4;
+}
+.head-top li{
+    display: inline-block;
+    padding: .5em;
+    border-right: solid 2px #999898;
+}
+.head-md li{
+    display: inline-block;
+    padding: .6em;
+    margin:  .6em; 
+    color: #FFFFFF;
+    
+}
+aside p{
+    font-size: 16px;
+}
+.logo_crecer{
+    width: 100%;
+    height: auto;
+}
+.logo_crecer img{
+    width: 18em;
+    height: auto;
+}
+.logo_2{
+     width: 18em;
+    height: auto;
+}
+#logo_ciencia{
+    width: 18em;
+    height: auto;
+}
+.separador{
+    border-bottom: 1px solid gray;
+}

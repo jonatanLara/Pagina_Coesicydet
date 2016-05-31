@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+	<header>
+		<ul class="head-top">
+			<li>
+				<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> (981) 8131752</span>
+			</li>
+			<li>
+				<span class="glyphicon glyphicon-envelope" aria-hidden="true"> contacto@coesicydet.com</span>
+			</li>
+			<li>
+				<span class="glyphicon glyphicon-home" aria-hidden="true"> Abierto 9:00 - 16:00 </span>
+			</li>
+		</ul>
+	</header>
+
+	<!--    -->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="#" class="navbar-brand">COESICYDET</a>
+			
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					
+					<li class="active"><a href="#">Inicio</a></li>
+					<li><a href="#">Conócenos</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle ="dropdown" href="#">Programas <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							 <li><a href="#">Convocatorias</a></li>
+							<li><a href="#">Planetario</a></li>
+							<li><a href="#">Laboratorio Movil</a></li>
+							<li><a href="#">Telescopios</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Transparencia</a></li>
+					<li><a href="#">Foros</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-md-8 center-block">
+
+		<h3 class="container">Primer Verano de la Ciencia Campeche, Mar, Selva, Cultura Maya y Ciencia</h3>
+		<center>
+			<div class="logo_2">
+				<img id="logo_ciencia"src="img/logo2.png" alt="">
+			</div>
+		</center>
+		<br>
+
+			<form class="form-horizontal ">
+				<h4 class=" separador form-group">Datos Personales</h4><br>
+				<div class="form-group">
+			        <label class="control-label col-xs-3">Nombre:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Primer y Segundo Nombre">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Apellido:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Primer y Segundo Apellido">
+			        </div>
+			    </div>
+				
+				<div class="form-group">
+			        <label class="control-label col-xs-3">Genero:</label>
+			        <div class="col-xs-2">
+			            <label class="radio-inline">
+			                <input type="radio" name="genderRadios" value="male"> Maculino
+			            </label>
+			        </div>
+			        <div class="col-xs-2">
+			            <label class="radio-inline">
+			                <input type="radio" name="genderRadios" value="female"> Femenino
+			            </label>
+			        </div>
+			    </div>
+
+				<div class="form-group">
+			        <label class="control-label col-xs-3">F. Nacimiento:</label>
+			        <div class="col-xs-3">
+			            <select class="form-control">
+			                <option>Dia</option>
+			            </select>
+			        </div>
+			        <div class="col-xs-3">
+			            <select class="form-control">
+			                <option>Mes</option>
+			            </select>
+			        </div>
+			        <div class="col-xs-3">
+			            <select class="form-control">
+			                <option>Año</option>
+			            </select>
+			        </div>
+			    </div>
+
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Dirección:</label>
+			        <div class="col-xs-9">
+			            <textarea rows="3" class="form-control" placeholder="Dirección"></textarea>
+			        </div>
+			    </div>
+				
+				<div class="form-group">
+			        <label class="control-label col-xs-3">Calle:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Calle">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Colonia:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Colonia">
+			        </div>
+			    </div>
+
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Delegación/Municipio:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Delegación o Municipio">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Codigo Postal:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Codigo postal">
+			        </div>
+			    </div>
+				<div class="form-group">
+			        <label class="control-label col-xs-3">Estado:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Estado">
+			        </div>
+			    </div>
+
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Lada:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Lada">
+			        </div>
+			    </div>
+
+			    <div class="form-group">
+			        <label class="control-label col-xs-3" >Telefono 1:</label>
+			        <div class="col-xs-9">
+			            <input type="tel" class="form-control" placeholder="Telefono">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3" >Telefono 2:</label>
+			        <div class="col-xs-9">
+			            <input type="tel" class="form-control" placeholder="Telefono">
+			        </div>
+			    </div>
+			    
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Email:</label>
+			        <div class="col-xs-9">
+			            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3" >CURP:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="CURP">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3" >Clave de Ingreso:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Clave de Ingreso">
+			        </div>
+			    </div>
+
+			    <h4 class="separador form-group">Datos Academicos</h4><br>
+
+				<div class="form-group">
+			        <label class="control-label col-xs-3">Area:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Area">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Institución:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="institución de procedencia">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Facultad:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Facultad/Escuela o Campo">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Cuidad:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Cuidad">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Carrera:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Carrera o Licenciatura">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Interés:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Interés">
+			        </div>
+			    </div>
+				<div class="form-group">
+			        <label class="control-label col-xs-3">Período:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Período">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Plan:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Plan de estudios">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Promedio:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="Promedio">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <label class="control-label col-xs-3">Participaciones:</label>
+			        <div class="col-xs-9">
+			            <input type="text" class="form-control" placeholder="participaciones anteriores">
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <div class="col-xs-offset-3 col-xs-9">
+			            <label class="checkbox-inline">
+			                <input type="checkbox" value="news"> Enviar noticias.
+			            </label>
+			        </div>
+			    </div>
+			    <div class="form-group">
+			        <div class="col-xs-offset-3 col-xs-9">
+			            <label class="checkbox-inline">
+			                <input type="checkbox" value="agree">  Accepto <a href="#">Terminos y condiciones</a>.
+			            </label>
+			        </div>
+			    </div>
+			    <br>
+			    <div class="form-group">
+			        <div class="col-xs-offset-3 col-xs-9">
+			            <input type="submit" class="btn btn-primary" value="Enviar">
+			            <input type="reset" class="btn btn-default" value="Limpiar">
+			        </div>
+			    </div>
+			</form>
+	</div>
+		
+	
+
+		<!--boton flotante -->
+		<div id="toTop" class="container">
+
+			<a href="javascript:void(0);" class="glyphicon glyphicon-chevron-up"></a>
+		</div>
+
+	<div class="logo_crecer"><br>
+		<center>
+			<img src="img/crecer_en_grande.png" alt="">
+		</center>
+		
+	</div>
+
+	  <script src="js/jquery-2.1.4.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+
+	  <!-- boton flotante con animacion  -->
+	  <script>
+	  		$(document).ready(function(){
+	  			$('#toTop').hide();
+		  			$(function(){
+		  				$(window).scroll(function(){
+		  					if ($(this).scrollTop() > 200) {
+		  						$('#toTop').fadeIn();
+		  					}else{
+		  						$('#toTop').fadeOut();
+		  					}
+		  				})
+		  				$('#toTop a').click(function(){
+		  					$('body,html').animate({
+		  						scrollTop: 0
+		  					}, 1000);
+		  					return false;
+		  				})
+		  			})
+			
+			})
+	  </script>
+
+	  <style>
+	    .required{
+		  	color: red;
+		  	font-weight: bold;
+
+	  	}
+	  	.center-block{
+	  		float: none;
+	  	}
+	  	.human{
+	  		margin: 0,0,0,12px;
+		}
+	  	</style>
+</body>
+</html>
