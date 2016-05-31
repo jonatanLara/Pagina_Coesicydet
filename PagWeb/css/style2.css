@@ -1,31 +1,20 @@
 body{
     background-color: whitesmoke;
 }
-header{
 
+header{
 	background-color: whitesmoke;
 	width: 100%;
 	height: 38px;
 }
-li span{
-    color: #204778;
-}
-/*
-.navbar-inverse,.navbar-toggle,.active{
-    background-color: #CC1414;
-}
-.navbar ul.nav li {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-*/
+
 #header{
 	color: #999898;
 }
 .red-social{
-	background-color: #92CB68;
+	background-color: #509422;
 	width: 100%;
 	height: 55px;
-    font-size: 1.2em;
 }
 #footer{
 	background-color: #509422;
@@ -72,35 +61,33 @@ li span{
 .head-top li{
     display: inline-block;
     padding: .5em;
-    border-right: solid 2px #999898;
 }
 .head-md li{
     display: inline-block;
     padding: .6em;
     margin:  .6em; 
     color: #FFFFFF;
-    
+
+}
+.separator {
+background-color: #509422;
+margin-bottom: 0em;
 }
 aside p{
     font-size: 16px;
 }
-.logo_crecer{
-    width: 100%;
-    height: auto;
+
+.logos{
+    text-align: center;
 }
-.logo_crecer img{
-    width: 18em;
-    height: auto;
-    padding: 15px;
+
+.galery{
+    background-color: whitesmoke;
 }
-.logo_2{
-     width: 18em;
-    height: auto;
+.footer {
+    margin-left: 2em;
+background-color: yellow;
 }
-#logo_ciencia{
-    width: 18em;
-    height: auto;
-}
-.separador{
-    border-bottom: 1px solid gray;
+.copy{
+    background-color: blue;
 }
