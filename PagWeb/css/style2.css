@@ -1,4 +1,8 @@
+body{
+    background-color: whitesmoke;
+}
 header{
+
 	background-color: whitesmoke;
 	width: 100%;
 	height: 38px;
@@ -24,7 +28,7 @@ li span{
     font-size: 1.2em;
 }
 #footer{
-	background-color: #4E4F4D;
+	background-color: #509422;
 }
 
 #toTop{
