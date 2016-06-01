@@ -63,12 +63,9 @@ header{
     display: inline-block;
     padding: .5em;
 }
-.head-md li{
-    display: inline-block;
-    padding: .6em;
-    margin:  .6em; 
-    color: #FFFFFF;
-
+#footer div a{
+    text-decoration: none;
+    color: white;
 }
 .separator {
 background-color: #509422;
