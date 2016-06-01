@@ -57,6 +57,7 @@ header{
 }
 .programas{
     background-color: #D4D4D4;
+    padding: 20px;
 }
 .head-top li{
     display: inline-block;
@@ -80,7 +81,7 @@ aside p{
 
 .logos{
     text-align: center;
-=======
+}
 .logo_crecer{
     width: 100%;
     height: auto;
@@ -105,4 +106,10 @@ background-color: yellow;
     background-color: blue;
 }
 
-.
+#imgPrograma{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+}
+
