@@ -3,8 +3,8 @@
 <head>
 	<title>:: FORO ::</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style3.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/login.css">
 </head>
 <body>
 		<header>
@@ -55,32 +55,68 @@
 			</div>
 		</div>
 	</div>
+	
+<div class="login-form">
+     <h1>COESICYDET <img src="img/icon.png" alt=""></h1>
+     <div class="form-group ">
+       <input type="text" class="form-control" placeholder="Usuario" id="UserName">
+       <i class="fa fa-user"></i>
+     </div>
+     <div class="form-group log-status">
+       <input type="password" class="form-control" placeholder="Contraseña" id="Passwod">
+       <i class="fa fa-lock"></i>
+     </div>
+      <span class="alert">Invalid Credentials</span>
+      <a class="link" href="#">¿Olvidaste tu contraseña?</a>
+     <button type="button" class="log-btn" >Iniciar Sesion</button>
+     
+    
+</div>
+
+	<!--
 <center>
     <div class="row">
 
-      <form class="form-signin col-md-4 ">
+      <form class="form-signin col-sm-12 col-md-8 col-lg-10 col-md-offset-1 ">
 
         <h2 class="form-signin-heading">Iniciar Sesion</h2>
-        <div class=" ol-sm-12 col-md-10 col-md-offset-1 ">  
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Usuario" required="" autofocus="">
+
+        <div class=" ">  
+	        <label for="inputEmail" class="sr-only">Email address</label>
+	        <input type="email" id="inputEmail" class="form-control" placeholder="Usuario" required="" autofocus="">
   
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
+	        <label for="inputPassword" class="sr-only">Password</label>
+	        <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
        </div>
+
         <div class="checkbox">
-          <label>
+          	<label>
             <input type="checkbox" value="remember-me"> Recordarme
-          </label>
+          	</label>
         </div>
+
         <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesion</button>
+
       </form>
 
-    </div> <!-- /container -->
+    </div> 
 </center>
-
+-->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+            $(document).ready(function(){
+            $('.log-btn').click(function(){
+                $('.log-status').addClass('wrong-entry');
+               $('.alert').fadeIn(500);
+               setTimeout( "$('.alert').fadeOut(1500);",3000 );
+            });
+            $('.form-control').keypress(function(){
+                $('.log-status').removeClass('wrong-entry');
+            });
+
+            });
+          </script>
   
 
 </body>
