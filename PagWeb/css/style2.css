@@ -209,6 +209,7 @@ aside p{
     #footer #facebook, #footer #twitter, #footer #youtube{
         font-size: 20px;
     }
-    
-    
+    #info-cont {
+        display: none;
+    }
 }
