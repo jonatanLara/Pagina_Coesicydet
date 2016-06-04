@@ -28,6 +28,12 @@ header{
 .navbar-inverse .navbar-brand{
     color: white;
 }
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus
+{
+    background-color: #1A242F;
+    border-color: #1A242F;
+}
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus{
     color:#188C9C;
@@ -185,4 +191,24 @@ aside p{
     width: 140px;
     height: 140px;
     text-align: center;
+}
+
+/** Medias querys */
+@media screen and (max-width: 395px) {
+
+    header {
+        display: none;
+        background: red;
+    }
+    #footer #siguenos{
+        display: none;
+    }
+    #footer h3{
+        display: block;
+    }
+    #footer #facebook, #footer #twitter, #footer #youtube{
+        font-size: 20px;
+    }
+    
+    
 }
