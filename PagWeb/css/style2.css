@@ -177,11 +177,14 @@ aside p{
     width: 18em;
     height: auto;
 }
-.logo_2{
-     width: 18em;
+.logo_2 img{
+    width: 18em;
     height: auto;
 }
-
+.img-responsive{
+    max-width: 100%; 
+    height: auto; 
+}
 .galery{
     background-color: whitesmoke;
 }
