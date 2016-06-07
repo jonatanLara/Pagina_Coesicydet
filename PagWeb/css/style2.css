@@ -86,21 +86,27 @@ header{
     font-family: 'iconos';
     content: "\ea91";
      font-size: 1.6em;
-    
+    transition: all .5s;
 }
 #footer #twitter:before
 {
     font-family: 'iconos';
     content: "\ea96";
      font-size: 1.6em;
-    
+    transition: all .5s;
 }
 #footer #youtube:before
 {
     font-family: 'iconos';
     content: "\ea9e";
      font-size: 1.6em;
-    
+    transition: all .5s;
+}
+#footer #facebook:hover,
+#footer #twitter:hover,
+#footer #youtube:hover
+{
+    color: #1A242F;
 }
 
 #toTop{
