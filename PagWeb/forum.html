@@ -57,21 +57,23 @@
 			</div>
 		</div>
 	</div>
-	
+	<!-- login -->
 <div class="login-form">
-     <h1>COESICYDET <img src="img/icon.png" alt=""></h1>
-     <div class="form-group ">
-       <input type="text" class="form-control" placeholder="Usuario" id="UserName">
-       <i class="fa fa-user"></i>
-     </div>
-     <div class="form-group log-status">
-       <input type="password" class="form-control" placeholder="Contraseña" id="Passwod">
-       <i class="fa fa-lock"></i>
-     </div>
-      <span class="alert">Invalid Credentials</span>
-      <a class="link" href="#">¿Olvidaste tu contraseña?</a>
-     <button type="button" class="log-btn" >Iniciar Sesion</button>
-     
+	<form action="php/validar.php" method="POST">
+	     <h1>COESICYDET <img src="img/icon.png" alt=""></h1>
+	     <div class="form-group ">
+	       <input type="text" class="form-control" placeholder="Usuario" id="UserName" name="usuario">
+	       <i class="fa fa-user"></i>
+	     </div>
+	     <div class="form-group log-status">
+	       <input type="password" class="form-control" placeholder="Contraseña" id="Password" name="clave">
+	       <i class="fa fa-lock"></i>
+	     </div>
+	     <div id="alerta"></div>
+	      <span class="alert">Invalid Credentials</span>
+	      <a class="link" href="#">¿Olvidaste tu contraseña?</a>
+	     <input type="submit" value="Ingresar" class="btn btn-primary" onClick="javascript:validar();">
+     </form>
     
 </div>
 
@@ -119,7 +121,25 @@
 
             });
           </script>
-  
+  <script>
+  function validar(){
+
+var nombre = document.getElementById("UserName").value; //Cogemos el valor del campo nombre
+var password = document.getElementById("Password")
+var miDiv = document.getElementById("alerta");  // Cogemos la referencia al nuestro div.
+var html = "";  //En esta variable guardamos lo que queramos añadir al div.
+
+if(nombre == "") {   //Comprobamos que está vacío
+
+        miDiv.innerHTML = "";     //innerHTML te añade código a lo que ya haya por eso primero lo ponemos en blanco.
+		html = "Debe llenar los campos*";
+		miDiv.innerHTML = html;
+		return true;
+
+}
+
+}
+  </script>
 
 </body>
 </html>
