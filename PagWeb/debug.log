@@ -1,0 +1,6 @@
+[0620/211527:ERROR:process_info.cc(608)] range at 0x32f3dee00000000, size 0x39 fully unreadable
+[0620/211527:ERROR:process_info.cc(608)] range at 0x32f3e5000000000, size 0x39 fully unreadable
+[0620/211527:ERROR:process_info.cc(608)] range at 0x0, size 0x39 fully unreadable
+[0620/211527:ERROR:process_reader_win.cc(141)] SuspendThread: Acceso denegado. (0x5)
+[0620/211527:ERROR:exception_snapshot_win.cc(57)] thread ID 7624 not found in process
+[0620/211527:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
