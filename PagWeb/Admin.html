@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<title>Vista Administrador</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+
+
+<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="admin.html" class="navbar-brand">COESICYDET</a>
+			
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					
+					
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle ="dropdown" href="#">Programas <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Ver registros de convocatorias </a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ul>
+					</li>
+					<li><a href="admin.html">Administrar usuarios</a></li>
+				<li><a href="index_3.html">Cerrar Sesion</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators botones inferiores -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    </ol>
+				    <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <img src="img/veranociencia1.jpg" alt="...">
+					      <div class="carousel-caption">
+					         <!-- texto -->
+					      </div>
+					      </div>
+					      </div>
+					      <div>
+<nav class="navbar navbar-inverse">
+</nav>
+</div>
+<div class="row">
+  <div class="col-xs-6 col-sm-3"><a href="http://www.coesicydet.com/webmail"><img src="img/webmail_logo.gif" alt= "Error en la imagen" class="img-circle"></a></div>
+  <div class="col-xs-6 col-sm-3"><a href="https://www.facebook.com/COESICYDET?fref=ts"><img src="img/face.jpeg" alt="Error" class="img-circle"></a></div>
+  <!-- Add the extra clearfix for only the required viewport -->
+  <div class="clearfix visible-xs-block"></div>
+  <div class="col-xs-6 col-sm-3"><a href="https://twitter.com/COESICYDET"><img src="img/twitter.png" alt ="Error en la carga" class="img-circle"></a></div>
+</div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+	<script>
+  		$(document).ready(function(){
+  			$('#toTop').hide();
+	  			$(function(){
+	  				$(window).scroll(function(){
+	  					if ($(this).scrollTop() > 200) {
+	  						$('#toTop').fadeIn();
+	  					}else{
+	  						$('#toTop').fadeOut();
+	  					}
+	  				})
+	  				$('#toTop a').click(function(){
+	  					$('body,html').animate({
+	  						scrollTop: 0
+	  					}, 1000);
+	  					return false;
+	  				})
+	  			})
+		
+		})
+  </script>
+</body>
+</html>
