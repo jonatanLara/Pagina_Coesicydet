@@ -5,21 +5,28 @@
 	<title>COESICYDET</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/lightbox.css">
 	<link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
 	<header>
-		<ul class="head-top">
-			<li>
-				<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> (981) 8131752</span>
-			</li>
-			<li>
-				<span class="glyphicon glyphicon-envelope" aria-hidden="true"> contacto@coesicydet.com</span>
-			</li>
-			<li>
-				<span class="glyphicon glyphicon-home" aria-hidden="true"> Abierto 9:00 - 16:00 </span>
-			</li>
-		</ul>
+		
+		<div class="container">
+		  <div class="row">
+		    <div class="col-md-2 icons">
+		    	<a href=""><span class="iconFacebook" aria-hidden="true"></span></a>
+		    	<a href=""><span class="iconTwitter" aria-hidden="true"></span></a>
+		    	<a href=""><span class="iconYoutube" aria-hidden="true"></span></a>
+		    </div>
+		    <div class="col-xs-4 col-md-10 text-right">
+		    	<span class="iconEmail"> contacto@coesicydet.com</span>
+		    	<span class="iconTel"> (981) 8131752</span>
+		    	<span class="iconOpen"> Abierto 9:00 - 16:00 </span>
+		    </div>
+		  </div>
+		</div>
+				
+		
 	</header>
 
 	<!--    -->
@@ -49,18 +56,18 @@
 						</ul>
 					</li>
 					<li><a href="trasparencia.html">Transparencia</a></li>
-					<li><a href="forum.html">Foro</a></li>
+					<li><a href="multimedia.html">Multimedia</a></li>
 
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="jumbotron container">
 
+	<div class="container jumbotron ">
+	
 		
-		<div class="thumbnail no-margin-bottom col-xs-6 col-ms-4 col-sm-2 col-md-2 col-lg-2">
-			<a href="#" data-toggle="tooltip" data-placement="right" data-html="true" data-container="body" title="" target="_self" data-original-title="Veranociencia">
-			<img src="img/cartel.jpg" class="img-rounded img-responsive img-responsive-static"></a>
+		<div id="contenedor" class="thumbnail no-margin-bottom col-xs-6 col-ms-4 col-sm-2 col-md-2 col-lg-2">
+			<a href="img/cartel.jpg" data-lightbox="image-1"><img  src="img/cartel.jpg" class="img-rounded img-responsive img-responsive-static"></a>
 			<div class="caption no-padding-right no-padding-left no-padding-bottom">
 				<ul class="list-unstyled no-margin text-truncate text-center">
 					
@@ -71,14 +78,17 @@
 						<!-- año -->
 					</li>
 					<li>
-						<a class="btn btn-success" href="formulario.html">Inscríbete</a>
+							
+						<button class="btn btn-success" >Inscríbete</button>
 					</li>
 				</ul>
 			</div>
 		</div>
-		<div class="thumbnail no-margin-bottom col-xs-6 col-ms-4 col-sm-2 col-md-2 col-lg-2">
-			<a href="#" data-toggle="tooltip" data-placement="right" data-html="true" data-container="body" title="" target="_self" data-original-title="Veranociencia">
-			<img src="img/1er verano.jpg" class="img-rounded img-responsive img-responsive-static"></a>
+
+		
+
+		<div  id="contenedor" class="thumbnail no-margin-bottom col-xs-6 col-ms-4 col-sm-2 col-md-2 col-lg-2">
+			<a href="img/1er verano.jpg" data-lightbox="image-1"><img src="img/1er verano.jpg" class="img-rounded img-responsive img-responsive-static"></a>
 			<div class="caption no-padding-right no-padding-left no-padding-bottom">
 				<ul class="list-unstyled no-margin text-truncate text-center">
 					
@@ -94,13 +104,14 @@
 				</ul>
 			</div>
 		</div>
-
+	
 	</div>
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
+  <script src="js/lightbox.js"></script>
   <!-- boton flotante con animacion  -->
   <script>
+
   		$(document).ready(function(){
   			$('#toTop').hide();
 	  			$(function(){
@@ -118,8 +129,16 @@
 	  					return false;
 	  				})
 	  			})
-		
+
+	  	$('#exampleModal').on('show.bs.modal', function (event) {
+			  var button = $(event.relatedTarget) // Button that triggered the modal
+			  var recipient = button.data('whatever') // Extract info from data-* attributes			 
+			  var modal = $(this)
+			  modal.find('.modal-title').text('New message to ' + recipient)
+			  modal.find('.modal-body input').val(recipient)
+			})
 		})
+
   </script>
 
 </body>
