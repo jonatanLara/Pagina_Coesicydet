@@ -221,6 +221,12 @@ aside p{
         display: none;
         background: red;
     }
+     .left-grid-1 h3 {
+        color: #fff;
+        background: #EC5844;
+        padding: 0.2em;
+        font-size: 11px;    
+    }
     
 }
 @media screen and (max-width: 552px) {
@@ -228,6 +234,13 @@ aside p{
     .iconOpen{
         display: none;
         background: red;
+    }
+
+    .left-grid-1 h3 {
+    color: #fff;
+    background: #EC5844;
+    padding: 0.2em;
+    font-size: 11px;
     }
     
 }
@@ -770,10 +783,8 @@ font-family: 'Open Sans', sans-serif;
     color: #2B8374;
    /* background: #EC5844;*/
     padding: 0.2em 0.2em;
-    width: 71%;
     font-size: 3em;
-    
-    
+    text-align: center;
     
 }
 .left-grid-1 h2 {
@@ -785,10 +796,8 @@ font-family: 'Open Sans', sans-serif;
     color: #fff;
     background: #EC5844;
     padding: 0.2em 0.2em;
-    width: 71%;
-    font-size: 4em;
-    border-bottom: 1px solid #fff;
-    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    text-align: center;
 }
 .callbacks_nav {
     position: absolute;
